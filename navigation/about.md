@@ -46,6 +46,34 @@ Flags are made using Wikipedia images
         object-fit: cover;
         border-radius: 5px;
     }
+
+    .interests-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .interest-card {
+        overflow: hidden;
+        border-radius: 10px;
+        background: #f3f4f6;
+        text-align: center;
+    }
+
+    .interest-card img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .interest-card h4 {
+        margin: 12px 8px 4px;
+    }
+
+    .interest-card p {
+        margin: 4px 8px 14px;
+    }
 </style>
 
 <!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
@@ -96,6 +124,36 @@ Flags are made using Wikipedia images
         container.appendChild(gridItem);
     }
 </script>
+
+## About Me
+
+Hi! My name is Ryden. I have lived in San Diego, California my whole life. Some of my biggest interests are video games, badminton, and soccer.
+
+## Where I'm From
+
+San Diego has always been home for me. I have grown up in the San Diego area and have lived here my whole life.
+
+## My Interests
+
+Here are some of the things I enjoy:
+
+<div class="interests-grid">
+    <div class="interest-card">
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80" alt="Video game controller and gaming setup">
+        <h4>🎮 Video Games</h4>
+        <p>I especially enjoy playing Rocket League.</p>
+    </div>
+    <div class="interest-card">
+        <img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=800&q=80" alt="Badminton racket and shuttlecock">
+        <h4>🏸 Badminton</h4>
+        <p>I enjoy playing badminton in my free time.</p>
+    </div>
+    <div class="interest-card">
+        <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80" alt="Soccer ball on a soccer field">
+        <h4>⚽ Soccer</h4>
+        <p>I enjoy playing soccer and staying active.</p>
+    </div>
+</div>
 
 ### Journey through Life
 
