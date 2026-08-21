@@ -5,7 +5,7 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is Ryden Bercovitch
+Hi! My name is 
 
 ### Development Environment
 
